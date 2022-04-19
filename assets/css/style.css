@@ -5,6 +5,7 @@
     --lte-green: #a3a86d;
     --drk-green: #738054;
     --lte-beige: #E1D5B8;
+    --lte-beige-opaque: #e1d5b89e;
     --drk-beige: #BE996E;
     --gray: rgb(92, 92, 92);
     --background-black:rgba(0, 0, 0, 0.9);
@@ -233,13 +234,14 @@ h3 {
     margin: 40px 0 0 0;
     display: flex;
     align-content: space-between;
+    height: 347px;
 }
 /* large card */
 .work-card-large {
     width: 40%;
     margin: 0 0 0 5%;
     overflow: hidden;
-    height: 300px;
+    height: 337px;
     text-align: center;
     border: 5px solid var(--background-black);
     background-color: black;
@@ -249,13 +251,13 @@ h3 {
     width: 30%;
     margin: 0 0 0 5%;
     overflow: hidden;
-    height: 300px;
+    height: 337px;
     text-align: center;
     border: 5px solid var(--background-black);
     background-color: black;
 }
 .work-group-label-container {
-    height: 310px;
+    height: 347px;
     width: 15%;
     border-right: 2px solid gray;
     display: flex;
@@ -266,6 +268,17 @@ h3 {
     margin: 10px 10px 0 10px;
     align-self: flex-end;
     font-size: 30px;
+}
+.repo {
+    font-size: 120%;
+    color: white;
+    width: 100%;
+    height: 32px;
+    padding: 5px 0 0 0;
+}
+.repo:hover {
+    color: var(--drk-beige);
+    transition: .3s;
 }
 /*  */
 
@@ -307,7 +320,7 @@ h3 {
 }
 #sbs-img {
     width: 100%;
-    max-height: 265px;
+    max-height: 255px;
     max-width: 600px;
     object-fit: contain;
     opacity: .5;
@@ -333,7 +346,7 @@ h3 {
 }
 #weather-dashboard-img {
     width: 100%;
-    max-height: 265px;
+    max-height: 255px;
     max-width: 600px;
     object-fit: contain;
     opacity: .5;
