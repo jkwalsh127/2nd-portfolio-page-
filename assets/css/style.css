@@ -139,3 +139,38 @@ nav li {
     line-height: 130%;
     padding-top: 20px;
 }
+
+/* 'About Me' section */
+#about-me {
+    width: 100%;
+    overflow: overlay;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-me article {
+    background-color: white;
+    height: 500px;
+    width: 50%;
+}
+
+#about-me-head {
+    margin: 100px 0 20px 5%;
+    font-size: 2em;
+    width: 100%;
+}
+
+#about-me p {
+    line-height: 130%;
+    font-size: 1.2em;
+    text-indent: 50px;
+}
+
+/* Self-portrait */
+#self-portrait {
+    width: 500px;
+    height:450px;
+    object-fit: cover;
+    border: 10px solid var(--gray);
+}
