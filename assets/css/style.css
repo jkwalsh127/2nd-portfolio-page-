@@ -167,7 +167,7 @@ nav li {
     width: 50%;
 }
 
-#about-me-head {
+#about-me-header {
     margin: 100px 0 20px 5%;
     font-size: 2em;
     width: 100%;
@@ -210,10 +210,12 @@ nav li {
 #my-work-header {
     width: 95%;
     margin: 100px 0 20px 5%;
+    font-size: 2em;
 }
 .hr-full {
     width: 95%;
     float: left;
+    margin: 0 0 5px 0;
 }
 .work-section-container {
     width: 100%;
@@ -365,6 +367,12 @@ nav li {
     justify-content: space-between;
     align-content: center;
     flex-direction: column;
+}
+
+#contact-me-header {
+    width: 95%;
+    margin: 100px 0 20px 5%;
+    font-size: 2em;
 }
 
 #contact-ul {
@@ -599,7 +607,7 @@ footer {
         width: 90%;
         margin: 50px 0 20px 5%;
     }
-    h3 {
+    #contact-me-header {
         width: 90%;
         margin: 50px 0 20px 5%;
     }
