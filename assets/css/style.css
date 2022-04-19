@@ -501,6 +501,12 @@ footer {
     #nav-contact {
         padding: 30px 15px 5px 15px;
     }
+    #about-me-head {
+        margin: 50px 0 20px 5%;
+    }
+    #my-work-header {
+        margin: 50px 0 20px 5%;
+    }
     #about-me article {
         background-color: white;
         width: 90%;
@@ -528,4 +534,42 @@ footer {
         margin: 0 1%;
         width: 98%;
     }
+}
+
+@media screen and (max-width: 699px) {
+    #hero {
+        height: 475px;
+    }
+    #hero-div {
+        top: 300px;
+    }
+    #hero-text-div {
+        padding: 20px 20px;
+    }
+    #hero-head {
+        font-size: 30px;
+    }
+    #hero-p {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .work-group-label-container {
+        width: 100px;
+        min-width: 150px;
+    }
+    .work-label {
+        font-size: 25px;
+    }
+    .work-card-large {
+        width: 60%;
+        min-width: 300px;
+    }
+    .work-card {
+        width: 60%;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 561px) {
+    
 }
