@@ -14,6 +14,9 @@ Click <a href="https://jkwalsh127.github.io/my-portfolio-page/" target="_blank">
 
 This webpage is where I take a little bit of time to describe myself, showcase some of my best programming projects, and provide contact information as well as my professional resume. The page is for practical purposes and doesn't have much dynamic functionality. It does, however, include a little bit of JavaScript, dynamic styling, and it is presented in a pleasing, professional manner. I have had a lot of fun building this page, and I am really enjoying adding more projects to it as I build my skills as a programmer!
 
+### Page preview
+![gif demonstration of my portfolio page](./assets/images/portfolio-preview.gif)
+
 ### Collaborators
 
 Just myself! Get in touch with me:
