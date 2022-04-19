@@ -391,3 +391,10 @@ h3 {
     width: 16px;
     margin-right: 15px;
 }
+
+/* 'Footer' section */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
