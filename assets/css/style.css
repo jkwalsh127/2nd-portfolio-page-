@@ -673,6 +673,10 @@ footer {
     #hero-p {
         font-size: 16px;;
     }
+    #about-me {
+        height: 650px;
+        align-items: flex-start;
+    }
     .work-section-container {
         width: 100%;
         margin: 40px 0 0 0;
@@ -701,9 +705,6 @@ footer {
         align-self: center;
         margin: 0;
     }
-    #tradingview-img {
-        min-width: 100%;
-    }
     #my-work-header {
         width: 90%;
         margin: 50px 0 20px 5%;
@@ -714,5 +715,29 @@ footer {
     }
     #contact-ul {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #hero-div {
+        top: 250px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #about-me {
+        height: 700px;
+    }
+    #hero-div {
+        top: 250px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #about-me {
+        height: 800px;
+    }
+    #tradingview-head {
+        font-size: 25px;
     }
 }
